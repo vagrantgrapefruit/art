@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Login from './Component/Login';
-import './App.css';
+import styles from'./App.css';
 
 
 
@@ -13,10 +13,10 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div className={styles.App}>
+        <header className={styles['App-header']}>
         </header>
-        <p className="App-intro">
+        <p className={styles['App-intro']}>
           <Login />
         </p>
 
