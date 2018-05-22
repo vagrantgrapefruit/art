@@ -3,14 +3,18 @@ import classNames from 'classnames';
 //import PropTypes from 'prop-types';
 import 'font-awesome/css/font-awesome.min.css';
 import Botton from './Botton';
-import './Login.css';
+import styles from './Login.css';
+
+
+
 
 const welcomeMessage = '欢迎登陆本系统';
+
 
 class Login extends Component {
   render() {
     return (
-      <div className="LoginBox">
+      <div className='LoginBox'>
         <p style={{ padding: '20px 0px 0px', align: 'center', position: 'relative' }}>
           <h1 className="App-title">{welcomeMessage}</h1>
         </p>

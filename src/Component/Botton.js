@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 //import 'bootstrap/dist/css/bootstrap.css';
 //import 'bootstrap/dist/css/bootstrap-theme.css';
-import './Login.css';
 
 /* const Button = ({ onClick, className = '', children }) =>
 
@@ -15,7 +14,7 @@ import './Login.css';
     </button>
  */
 
-var styles = {
+const styles = {
     foo: {      
         background: 'rgb(0, 142, 173)', 
         padding: '7px 15px', 

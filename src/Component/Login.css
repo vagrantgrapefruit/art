@@ -24,8 +24,7 @@
     height: 50px;
     line-height: 50px; 
     margin-top: 20px; 
-    border-top-color: 
-    rgb(231, 231, 231); 
+    border-top-color:rgb(231, 231, 231); 
     border-top-width: 1px; 
     border-top-style: solid;
   }
@@ -108,15 +107,6 @@
   
   a {
     text-decoration: none;
-  }
-  .botton{
-    background: rgb(0, 142, 173); 
-    padding: 7px 15px; 
-    border-radius: 4px; 
-    border: 1px solid rgb(26, 117, 152); 
-    border-image: none; 
-    color: rgb(255, 255, 255);
-    font-weight: bold;
   }
   #local {
     float: right;
